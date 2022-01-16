@@ -13,7 +13,7 @@ export default function App() {
         <Sidebar />
         <Switch>
           <Route path="/" exact component={DashboardFinance} />
-          <Route path="/dashboardEmployee" exact component={DashboardEmployee} />
+          <Route path="/emploi" exact component={DashboardEmployee} />
         </Switch>
       </Router>
 
